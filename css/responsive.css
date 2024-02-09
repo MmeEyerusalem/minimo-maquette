@@ -1,0 +1,67 @@
+@media (min-width:1200px) and (max-width:1399px){
+    .container1{
+        width: 70%;
+        align-items: center;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    .life-style1, .two-images{
+        width: 70%;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    img{
+        align-items: center;
+    }
+    h1, h2, h4, p{
+        align-items: center;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    /* body{
+        width: 100%;
+    } */
+    .life-style1, .two-images{
+        width: 70%;
+        justify-content: center;
+    }
+    img{
+        align-items: center;
+    }
+    h1, h2, h4, p{
+        align-items: center;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .life-style1, .two-images{
+        width: 100%;
+        align-items: center;
+    }
+     img {
+        align-items: center;
+        /* width: 100%; */
+        /* height: auto; */
+    }
+    h1, h2, h4, p{
+        align-items: center;
+    }
+}
+
+@media (max-width: 575px){
+    .life-style1, .two-images{
+        width: 100%;
+        align-items: center;
+    }
+     img {
+        align-items: center;
+        /* width: 100%; */
+        /* height: auto; */
+    }
+    h1, h2, h4, p{
+        align-items: center;
+    }
+   
+}
